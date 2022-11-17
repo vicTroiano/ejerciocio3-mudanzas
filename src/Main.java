@@ -20,6 +20,25 @@ public class Main {
                 true
         );
 
+        ObjetoTransportable sillaDeMetal = new ObjetoTransportable(
+                "mesa de Vicky",
+                20.0,
+                new Dimension(0.30, 1.0, 2.0),
+                false
+        );
+
+        ObjetoTransportable televisorViejo = new ObjetoTransportable(
+                "mesa de Vicky",
+                20.0,
+                new Dimension(0.30, 1.0, 2.0),
+                false
+        );
+
+
+
         camionDisponible.cargar(silla);
+        camionDisponible.cargar(televisor);
+        camionDisponible.cargar(televisorViejo);
+        camionDisponible.cargar(sillaDeMetal);
     }
 }

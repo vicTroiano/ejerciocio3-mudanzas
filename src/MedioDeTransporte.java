@@ -62,5 +62,7 @@ public class MedioDeTransporte {
     }
 
     public void cargar(ObjetoTransportable objetoTransportable) {
+        if(getTransportables().size() >= getCapacidadMaxima()) return;
+        getTransportables().add(objetoTransportable);
     }
 }
