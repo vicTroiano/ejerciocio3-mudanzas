@@ -60,4 +60,7 @@ public class MedioDeTransporte {
     public void setCantidadMaxima(int cantidadMaxima) {
         this.cantidadMaxima = cantidadMaxima;
     }
+
+    public void cargar(ObjetoTransportable objetoTransportable) {
+    }
 }
